@@ -17,6 +17,7 @@ Aim to be as easy to use as possible ***without*** performance in mind.
 - [x] Skip
 - [x] Options
 - [x] Get Available Model(s)
+- [x] Memory
  
 ## Getting Started
 
@@ -149,6 +150,7 @@ var DefaultConfig = Config{
         Skip:        "/sdapi/v1/skip",
         Options:     "/sdapi/v1/options",
         SDModels:    "/sdapi/v1/sd-models",
+		Memory:      "/sdapi/v1/memory",
     },
 }
 ```

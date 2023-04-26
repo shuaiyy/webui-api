@@ -12,7 +12,7 @@ type stableDiffusionModels struct {
 	Config    string `json:"config"`
 }
 
-// Get available Stable Diffusion Models
+// SDModels Get available Stable Diffusion Models
 func (a *api) SDModels() (result []*stableDiffusionModels, err error) {
 	resp, erro := a.get(a.Config.Path.SDModels)
 	if erro != nil {

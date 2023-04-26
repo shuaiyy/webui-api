@@ -101,6 +101,11 @@ type APIPath struct {
 	//
 	//  - Default: /sdapi/v1/sd-models
 	SDModels string
+
+	// Path to memory API
+	//
+	//  - Default: /sdapi/v1/memory
+	Memory string
 }
 
 var DefaultConfig = Config{
@@ -117,6 +122,7 @@ var DefaultConfig = Config{
 		Skip:        "/sdapi/v1/skip",
 		Options:     "/sdapi/v1/options",
 		SDModels:    "/sdapi/v1/sd-models",
+		Memory:      "/sdapi/v1/memory",
 	},
 }
 
